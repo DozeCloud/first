@@ -1,0 +1,166 @@
+.total {
+    width: 600px;
+    height: 1060px;
+    background-image: url(https://typorafirst.oss-cn-beijing.aliyuncs.com/Base.png);
+    margin: 0 auto;
+    position: relative;
+}
+
+.top1 {
+    width: 49px;
+    height: 49px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+    background-image: url(https://typorafirst.oss-cn-beijing.aliyuncs.com/Shape4copy3.png);
+
+}
+
+.top2 {
+    position: absolute;
+    width: 108px;
+    height: 30px;
+    margin-left: 245px;
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #d0e8eb;
+}
+
+.top3 {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    z-index: 1;
+    color: #7fc4c8;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 170px;
+    left: 230px;
+    background-image: url(https://typorafirst.oss-cn-beijing.aliyuncs.com/Shape16.png);
+    background-repeat: no-repeat;
+}
+
+
+.textbox1 {
+    position: absolute;
+    top: 360px;
+    left: 80px;
+    color: #f6f5f9;
+    outline: none;
+    width: 440px;
+    height: 60px;
+    border-bottom: 3px solid #9794c1;
+    font-size: 20px;
+}
+
+.textbox2 {
+    position: absolute;
+    top: 435px;
+    left: 80px;
+    color: #f6f5f9;
+    width: 440px;
+    height: 60px;
+    border-bottom: 3px solid #9794c1;
+    font-size: 20px;
+}
+
+.textbox3 {
+    position: absolute;
+    top: 510px;
+    left: 80px;
+    color: #f6f5f9;
+    width: 440px;
+    height: 56px;
+    border-bottom: 3px solid #9794c1;
+    font-size: 20px;
+}
+
+.password {
+    position: absolute;
+    top: 590px;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 445px;
+    height: 25px;
+    color: #f6f5f9;
+    font-size: 20px;
+}
+
+.password .right {
+    color: #3cffb5;
+    padding-left: 100.4px;
+    width: 60px;
+}
+
+
+.Sign {
+    position: relative;
+    top: 695px;
+    left: 80px;
+    width: 445px;
+    height: 75px;
+}
+
+.ball {
+    width: 32px;
+    height: 75px;
+    border-bottom-left-radius: 36px;
+    border-top-left-radius: 36px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.box {
+    color: #706d9f;
+    line-height: 75px;
+    position: absolute;
+    background-color: #fff;
+    left: 32px;
+    width: 256px;
+    padding-left: 125px;
+    font-weight: 549;
+    font-size: 40px;
+}
+
+.Sign .ball2 {
+    right: 0;
+    border-bottom-right-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 240px;
+    left: 200px;
+    width: 225px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.bottom .bot1 {
+    color: #fff;
+}
+
+.bottom .bot2 {
+    color: #3cffb5;
+}
+input {
+    border: none;
+    outline: none;
+    background: 0;
+}
+.top3 .iconfont {
+    font-size: 57px;
+}
