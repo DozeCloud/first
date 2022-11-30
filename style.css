@@ -6,23 +6,26 @@
     position: relative;
 }
 
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 560px;
+}
 .top1 {
     width: 49px;
     height: 49px;
     float: left;
-    margin-top: 30px;
-    margin-left: 20px;
-    position: absolute;
     background-image: url(https://typorafirst.oss-cn-beijing.aliyuncs.com/Shape4copy3.png);
 
 }
 
 .top2 {
-    position: absolute;
     width: 108px;
     height: 30px;
-    margin-left: 245px;
-    margin-top: 40px;
     font-size: 25px;
     line-height: 30px;
     color: #d0e8eb;
@@ -31,7 +34,6 @@
 .top3 {
     width: 48px;
     height: 48px;
-    position: absolute;
     top: 27px;
     right: 20px;
     z-index: 1;
